@@ -15,7 +15,7 @@ Equilibrium Engine is a data-oriented and multi-threaded **C11** game engine tha
   * Forward & Deferred shading. [PBR & HDR Tonemapping](https://github.com/pezcode/Cluster)
   * [cgltf](https://github.com/jkuhlmann/cgltf) or [Assimp](https://github.com/assimp/assimp) model loading
   * **C99/C11** API with some links to **C++** libraries such as [BGFX](https://github.com/bkaradzic/bgfx) & [imgui](https://github.com/ocornut/imgui)
-  * Crash protection against **SEGFAULT**, **SIGABRT**; in case your system accidentally access a **NULL** pointer or asserts in their callbacks - engine won't crash and will fallback to previous working library (*currently Windows only*) 
+  * Crash protection against **SEGFAULT**, **SIGABRT**; in case your system accidentally accesses a **NULL** pointer or asserts in their callbacks - the engine won't crash and will fallback to its previous working library (*currently Windows only*) 
 
 #### Hot-Reloading in action
 
@@ -37,7 +37,7 @@ https://user-images.githubusercontent.com/105135724/193709511-9e02c18f-c756-4140
 
 *You might need Visual Studio build tools installed so clang can link to MSVC*
 
-The rest of the dependencies included within the project.
+The rest of the dependencies included within the project:
 
 * assimp
 * bgfx
