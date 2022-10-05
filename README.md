@@ -1,6 +1,6 @@
 # Equilibrium Engine
 
-Equilibrium Engine is a data-oriented and multi-threaded **C11** game engine that takes advantage of **ECS** pattern followed by **Hot-Reloading** of your libraries and shaders which allows you quickly iterate on different aspects of your projects.
+Equilibrium Engine is a data-oriented and multi-threaded **C11** game engine that takes advantage of **ECS** pattern followed by **Hot-Reloading** of your libraries and shaders which allows you to quickly iterate on different aspects of your projects.
 
 <p align="center">
 <img src="docs/home.png">
