@@ -20,3 +20,6 @@ compile_shaders("${PROJECT_NAME}" "${SHADERS_SRC}"
 
 # compile_geometry("${PROJECT_NAME}" "${MODELS_SRC}"
 #                  "${CMAKE_RUNTIME_OUTPUT_DIRECTORY}/models")
+
+# Copy sample models to the build directory
+file(COPY models DESTINATION "${CMAKE_RUNTIME_OUTPUT_DIRECTORY}")

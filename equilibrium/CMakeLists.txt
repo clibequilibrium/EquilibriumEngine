@@ -43,18 +43,5 @@ target_link_libraries(
 
 add_subdirectory(engine-simulation)
 
-add_custom_command(
-  TARGET ${PROJECT_NAME}
-  POST_BUILD
-  COMMAND
-    ${CMAKE_COMMAND} -E copy
-    ${PROJECT_WORKING_DIRECTORY}/3rdparty/SDL2/lib/x64/SDL2.dll
-    $<TARGET_FILE_DIR:${PROJECT_NAME}>)
-
-add_custom_command(
-  TARGET ${PROJECT_NAME}
-  POST_BUILD
-  COMMAND
-    ${CMAKE_COMMAND} -E copy
-    ${PROJECT_WORKING_DIRECTORY}/3rdparty/assimp/lib/assimp.dll
-    $<TARGET_FILE_DIR:${PROJECT_NAME}>)
+file(COPY "${PROJECT_WORKING_DIRECTORY}/3rdparty/SDL2/lib/x64/SDL2.dll" DESTINATION "${CMAKE_RUNTIME_OUTPUT_DIRECTORY}")
+file(COPY "${PROJECT_WORKING_DIRECTORY}/3rdparty/assimp/lib/assimp.dll" DESTINATION "${CMAKE_RUNTIME_OUTPUT_DIRECTORY}")
