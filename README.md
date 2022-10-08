@@ -35,7 +35,7 @@ https://user-images.githubusercontent.com/105135724/193709511-9e02c18f-c756-4140
 * [Install CMake](https://cmake.org/download/)
 * [Install LLVM](https://releases.llvm.org/)
 
-*You might need Visual Studio build tools installed so clang can link to MSVC*
+*You might need Visual Studio build tools installed so clang can link to MSVC static libraries. In case if Visual Studio is your primarily IDE please consider following [these steps](https://learn.microsoft.com/en-us/cpp/build/clang-support-cmake?view=msvc-170) and check the issues section if you have troubles building the engine.*
 
 The rest of the dependencies included within the project:
 
