@@ -29,7 +29,7 @@ https://user-images.githubusercontent.com/105135724/193709511-9e02c18f-c756-4140
 
 ## Usage
 
-*Equilibrium* works on **Window**s via **clang/msvc** and was tested some time ago on Ubuntu 20.04 LTS using GCC only compiler. More work needs to be done to make sure the engine runs perfectly on both **Linux** & **Mac**.
+*Equilibrium* works on **Window**s via **clang only** and was tested some time ago on Ubuntu 20.04 LTS using GCC compiler. More work needs to be done to make sure the engine runs perfectly on both **Linux** & **Mac**.
 
 #### To get started on Windows
 * [Install CMake](https://cmake.org/download/)
