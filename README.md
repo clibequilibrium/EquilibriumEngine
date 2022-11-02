@@ -9,13 +9,19 @@ Equilibrium Engine is a data-oriented and multi-threaded **C11** game engine tha
 ## Features
 #### clang is the primarily supported compiler
 
-  * [Entity Component System](https://github.com/SanderMertens/flecs)
+  * [Entity Component System](https://github.com/SanderMertens/flecs) & [entity inspector](https://www.flecs.dev/explorer/)
   * Engine UI & Scripts [hot reloading](https://github.com/fungos/cr)
   * Shader hot reloading [via file watcher](https://github.com/nikp123/x-watcher)
   * Forward & Deferred shading. [PBR & HDR Tonemapping](https://github.com/pezcode/Cluster)
   * [cgltf](https://github.com/jkuhlmann/cgltf) or [Assimp](https://github.com/assimp/assimp) model loading
   * **C99/C11** API with some links to **C++** libraries such as [BGFX](https://github.com/bkaradzic/bgfx) & [imgui](https://github.com/ocornut/imgui)
   * Crash protection against **SEGFAULT**, **SIGABRT**; in case your system accidentally accesses a **NULL** pointer or asserts in their callbacks - the engine won't crash and will fallback to its previous working library (*currently Windows only*) 
+
+#### Flecs entity inspector
+
+<p align="center">
+<img src="docs/inspector.png">
+</p>
 
 #### Hot-Reloading in action
 
