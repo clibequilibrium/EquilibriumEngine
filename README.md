@@ -17,21 +17,18 @@ Equilibrium Engine is a data-oriented and multi-threaded **C11** game engine tha
   * **C99/C11** API with some links to **C++** libraries such as [BGFX](https://github.com/bkaradzic/bgfx) & [imgui](https://github.com/ocornut/imgui)
   * Crash protection against **SEGFAULT**, **SIGABRT**; in case your system accidentally accesses a **NULL** pointer or asserts in their callbacks - the engine won't crash and will fallback to its previous working library (*currently Windows only*) 
 
-#### Flecs entity inspector
+#### Hot-Reloading of shaders & scripts
 
-<p align="center">
-<img src="docs/inspector.png">
-</p>
-
-#### Hot-Reloading in action
-
-https://user-images.githubusercontent.com/105135724/193707936-8fa441ee-ebe1-42d0-b013-ef4c321541e9.mp4
-
+https://user-images.githubusercontent.com/105135724/199751023-b44df702-53ee-445d-8b08-f2b31ed1e369.mp4
 
 #### Crash protection
 
-
 https://user-images.githubusercontent.com/105135724/193709511-9e02c18f-c756-4140-a84a-eb4d7d44c7df.mp4
+
+#### Flecs entity inspector
+
+https://user-images.githubusercontent.com/105135724/199751066-ff07918d-c067-463c-93a7-f3cceeaeee6e.mp4
+
 
 ## Usage
 
