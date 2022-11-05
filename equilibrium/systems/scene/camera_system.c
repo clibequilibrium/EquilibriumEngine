@@ -90,8 +90,10 @@ static void UpdateCamera(ecs_iter_t *it) {
 
         if (input->mouse.right.state) {
 
-            if (SDL_ShowCursor(SDL_QUERY) == SDL_ENABLE)
+            if (SDL_ShowCursor(SDL_QUERY) == SDL_ENABLE) {
                 SDL_ShowCursor(SDL_DISABLE);
+                SDL_SetRelativeMouseMode(SDL_TRUE);
+            }
 
             // Rotation
             glm_vec2_negate(mouse_delta);
@@ -123,6 +125,7 @@ static void UpdateCamera(ecs_iter_t *it) {
             glm_quat_conjugate(camera[i].rotation, camera[i].inverse_rotation);
         } else {
             if (SDL_ShowCursor(SDL_QUERY) == SDL_DISABLE) {
+                SDL_SetRelativeMouseMode(SDL_FALSE);
                 SDL_WarpMouseGlobal(app_window->width / 2.f, app_window->height / 2.f);
                 SDL_ShowCursor(SDL_ENABLE);
             }
