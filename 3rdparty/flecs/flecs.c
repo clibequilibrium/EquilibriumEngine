@@ -29003,6 +29003,7 @@ int filter(unsigned int code, struct _EXCEPTION_POINTERS *ep, ecs_iter_t *it, ec
     system_data->action = dummy_system_callback;
 
     atomic_store_explicit(&exception_thrown, true, memory_order_release);
+    __debugbreak();
     return EXCEPTION_CONTINUE_SEARCH;
   }
 
