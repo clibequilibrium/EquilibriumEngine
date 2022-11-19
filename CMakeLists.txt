@@ -17,8 +17,7 @@ set(PROJECT_WORKING_DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR})
 include(${CMAKE_CURRENT_SOURCE_DIR}/cmake/sdl2-config.cmake)
 include(${CMAKE_CURRENT_SOURCE_DIR}/cmake/assimp-config.cmake)
 
-# Since we linkg BGFX statically we also want to export symbols so BGFX is no
-# included twice
+# Since we linkg BGFX statically we also want to export symbols so BGFX is not included twice
 add_compile_definitions(PUBLIC BGFX_SHARED_LIB_BUILD=1)
 
 if(CMAKE_HOST_UNIX AND NOT APPLE)
