@@ -23,7 +23,6 @@ https://user-images.githubusercontent.com/105135724/199751023-b44df702-53ee-445d
 
 #### Crash protection
 
-https://user-images.githubusercontent.com/105135724/193709511-9e02c18f-c756-4140-a84a-eb4d7d44c7df.mp4
 
 #### Flecs entity inspector
 
