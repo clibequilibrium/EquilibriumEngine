@@ -21,8 +21,7 @@ Equilibrium Engine is a data-oriented and multi-threaded **C11** game engine tha
 
 https://user-images.githubusercontent.com/105135724/199751023-b44df702-53ee-445d-8b08-f2b31ed1e369.mp4
 
-#### Crash protection
-
+#### [Crash protection](https://tinyurl.com/m5azjhdz)
 
 #### Flecs entity inspector
 
