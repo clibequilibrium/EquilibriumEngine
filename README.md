@@ -1,4 +1,5 @@
 # Equilibrium Engine
+[Check out DeepWiki documentation](https://deepwiki.com/clibequilibrium/EquilibriumEngine/1-overview)
 
 Equilibrium Engine is a data-oriented and multi-threaded **C11** game engine that takes advantage of **ECS** pattern followed by **Hot-Reloading** of your libraries and shaders which allows you to quickly iterate on different aspects of your projects.
 
